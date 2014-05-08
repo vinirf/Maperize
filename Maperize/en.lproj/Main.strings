@@ -1,0 +1,12 @@
+
+/* Class = "IBUISegmentedControl"; C63-pf-kZT.segmentTitles[0] = "Mapa"; ObjectID = "C63-pf-kZT"; */
+"C63-pf-kZT.segmentTitles[0]" = "Mapa";
+
+/* Class = "IBUISegmentedControl"; C63-pf-kZT.segmentTitles[1] = "Satélite"; ObjectID = "C63-pf-kZT"; */
+"C63-pf-kZT.segmentTitles[1]" = "Satélite";
+
+/* Class = "IBUISegmentedControl"; C63-pf-kZT.segmentTitles[2] = "Hibrído"; ObjectID = "C63-pf-kZT"; */
+"C63-pf-kZT.segmentTitles[2]" = "Hibrído";
+
+/* Class = "IBUIButton"; normalTitle = "Search"; ObjectID = "L38-Fm-dSd"; */
+"L38-Fm-dSd.normalTitle" = "Search";

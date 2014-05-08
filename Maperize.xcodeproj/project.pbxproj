@@ -1,0 +1,921 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B58F3E918E9DF5700AF7B38 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B58F3E818E9DF5700AF7B38 /* Accounts.framework */; };
+		0B58F3EB18E9DF5E00AF7B38 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B58F3EA18E9DF5E00AF7B38 /* Social.framework */; };
+		0B58F3ED18E9DF6700AF7B38 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B58F3EC18E9DF6700AF7B38 /* Twitter.framework */; };
+		3F3EEBA018F50B780059E1E7 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3EEB9D18F50B780059E1E7 /* bar.png */; };
+		3F3EEBA118F50B780059E1E7 /* buttonTake.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3EEB9E18F50B780059E1E7 /* buttonTake.png */; };
+		3F3EEBA218F50B780059E1E7 /* buttonTwettar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3EEB9F18F50B780059E1E7 /* buttonTwettar.png */; };
+		3F3EEBA518F50F630059E1E7 /* barraTransito.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3EEBA318F50F630059E1E7 /* barraTransito.png */; };
+		3F3EEBA618F50F630059E1E7 /* OtherUtilites.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3EEBA418F50F630059E1E7 /* OtherUtilites.png */; };
+		3F9FBB2718F6773E00F7C1B4 /* buttonMais.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9FBB2518F6773E00F7C1B4 /* buttonMais.png */; };
+		3F9FBB2818F6773E00F7C1B4 /* buttonMenos.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9FBB2618F6773E00F7C1B4 /* buttonMenos.png */; };
+		3FB0D1E018EBEB4C002CEB5A /* BombeirosIcone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB0D1DD18EBEB4C002CEB5A /* BombeirosIcone.png */; };
+		3FB0D1E118EBEB4C002CEB5A /* CETIcone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB0D1DE18EBEB4C002CEB5A /* CETIcone.png */; };
+		3FB0D1E218EBEB4C002CEB5A /* ProjectIcone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB0D1DF18EBEB4C002CEB5A /* ProjectIcone.png */; };
+		3FB47F4A18EEFDD500E93E7B /* CoodenadaLatitudeLongitude.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB47F4918EEFDD500E93E7B /* CoodenadaLatitudeLongitude.m */; };
+		3FB47F4C18EEFE9700E93E7B /* routes.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB47F4B18EEFE9700E93E7B /* routes.png */; };
+		3FCF3FC518EE5D9900B483DB /* ScreenLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF3FC418EE5D9900B483DB /* ScreenLeftViewController.m */; };
+		3FCF3FC918EE6DE100B483DB /* ImageApple.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FCF3FC618EE6DE100B483DB /* ImageApple.png */; };
+		3FCF3FCA18EE6DE100B483DB /* imageBomb.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FCF3FC718EE6DE100B483DB /* imageBomb.png */; };
+		3FCF3FCB18EE6DE100B483DB /* imageCET.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FCF3FC818EE6DE100B483DB /* imageCET.png */; };
+		3FCF3FD218EE863900B483DB /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF3FD118EE863900B483DB /* Base64.m */; };
+		3FCF3FD418EE8C6B00B483DB /* Fundo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FCF3FD318EE8C6B00B483DB /* Fundo.jpg */; };
+		A86E57A018E6189400C65A59 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = A86E579F18E6189400C65A59 /* search.png */; };
+		A8C326DC18E34D0B0081E47E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C326DB18E34D0B0081E47E /* Foundation.framework */; };
+		A8C326DE18E34D0B0081E47E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C326DD18E34D0B0081E47E /* CoreGraphics.framework */; };
+		A8C326E018E34D0B0081E47E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C326DF18E34D0B0081E47E /* UIKit.framework */; };
+		A8C326E618E34D0B0081E47E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8C326E418E34D0B0081E47E /* InfoPlist.strings */; };
+		A8C326E818E34D0B0081E47E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C326E718E34D0B0081E47E /* main.m */; };
+		A8C326EC18E34D0B0081E47E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C326EB18E34D0B0081E47E /* AppDelegate.m */; };
+		A8C326EF18E34D0B0081E47E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8C326ED18E34D0B0081E47E /* Main.storyboard */; };
+		A8C326F218E34D0B0081E47E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C326F118E34D0B0081E47E /* ViewController.m */; };
+		A8C326F418E34D0B0081E47E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8C326F318E34D0B0081E47E /* Images.xcassets */; };
+		A8C326FB18E34D0B0081E47E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C326FA18E34D0B0081E47E /* XCTest.framework */; };
+		A8C326FC18E34D0B0081E47E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C326DB18E34D0B0081E47E /* Foundation.framework */; };
+		A8C326FD18E34D0B0081E47E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C326DF18E34D0B0081E47E /* UIKit.framework */; };
+		A8C3270518E34D0B0081E47E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8C3270318E34D0B0081E47E /* InfoPlist.strings */; };
+		A8C3270718E34D0B0081E47E /* MaperizeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C3270618E34D0B0081E47E /* MaperizeTests.m */; };
+		A8C3271118E34D180081E47E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C3271018E34D180081E47E /* MapKit.framework */; };
+		A8DB34B618EB5C3200158D4E /* Lombada_maparadar.txt in Resources */ = {isa = PBXBuildFile; fileRef = A8DB346A18EB5C3200158D4E /* Lombada_maparadar.txt */; };
+		A8DB34B718EB5C3200158D4E /* maparadar_todos_SP.txt in Resources */ = {isa = PBXBuildFile; fileRef = A8DB346B18EB5C3200158D4E /* maparadar_todos_SP.txt */; };
+		A8DB34B818EB5C3200158D4E /* Pedagio_maparadar.txt in Resources */ = {isa = PBXBuildFile; fileRef = A8DB346C18EB5C3200158D4E /* Pedagio_maparadar.txt */; };
+		A8DB34B918EB5C3200158D4E /* PoliciaRodoviaria_maparadar.txt in Resources */ = {isa = PBXBuildFile; fileRef = A8DB346D18EB5C3200158D4E /* PoliciaRodoviaria_maparadar.txt */; };
+		A8DB34BA18EB5C3200158D4E /* RadarFixo_maparadar.txt in Resources */ = {isa = PBXBuildFile; fileRef = A8DB346E18EB5C3200158D4E /* RadarFixo_maparadar.txt */; };
+		A8DB34BB18EB5C3200158D4E /* RadarMovel_maparadar.txt in Resources */ = {isa = PBXBuildFile; fileRef = A8DB346F18EB5C3200158D4E /* RadarMovel_maparadar.txt */; };
+		A8DB34BC18EB5C3200158D4E /* SemaforoCamera_maparadar.txt in Resources */ = {isa = PBXBuildFile; fileRef = A8DB347018EB5C3200158D4E /* SemaforoCamera_maparadar.txt */; };
+		A8DB34BD18EB5C3200158D4E /* SemaforoRadar_maparadar.txt in Resources */ = {isa = PBXBuildFile; fileRef = A8DB347118EB5C3200158D4E /* SemaforoRadar_maparadar.txt */; };
+		A8DB34BE18EB5C3200158D4E /* Rota.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB347418EB5C3200158D4E /* Rota.m */; };
+		A8DB34BF18EB5C3200158D4E /* Usuario.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB347618EB5C3200158D4E /* Usuario.m */; };
+		A8DB34C018EB5C3200158D4E /* DataBaseCoordenada.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB347918EB5C3200158D4E /* DataBaseCoordenada.m */; };
+		A8DB34C118EB5C3200158D4E /* CoordenadaCet.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB347C18EB5C3200158D4E /* CoordenadaCet.m */; };
+		A8DB34C218EB5C3200158D4E /* CoordenadaCetSite.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB347E18EB5C3200158D4E /* CoordenadaCetSite.m */; };
+		A8DB34C318EB5C3200158D4E /* TweetCet.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB348018EB5C3200158D4E /* TweetCet.m */; };
+		A8DB34C418EB5C3200158D4E /* CoordenadaCorpo.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB348318EB5C3200158D4E /* CoordenadaCorpo.m */; };
+		A8DB34C518EB5C3200158D4E /* TweetCorpo.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB348518EB5C3200158D4E /* TweetCorpo.m */; };
+		A8DB34C618EB5C3200158D4E /* Coordenada.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB348818EB5C3200158D4E /* Coordenada.m */; };
+		A8DB34C718EB5C3200158D4E /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB348A18EB5C3200158D4E /* Tweet.m */; };
+		A8DB34C818EB5C3200158D4E /* CoordenadaRadares.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB348D18EB5C3200158D4E /* CoordenadaRadares.m */; };
+		A8DB34C918EB5C3200158D4E /* DataBaseCoordenadaRadares.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB348F18EB5C3200158D4E /* DataBaseCoordenadaRadares.m */; };
+		A8DB34CA18EB5C3200158D4E /* Lompada.png in Resources */ = {isa = PBXBuildFile; fileRef = A8DB349118EB5C3200158D4E /* Lompada.png */; };
+		A8DB34CB18EB5C3200158D4E /* Pedagio.png in Resources */ = {isa = PBXBuildFile; fileRef = A8DB349218EB5C3200158D4E /* Pedagio.png */; };
+		A8DB34CC18EB5C3200158D4E /* PoliciaRodoviaria.png in Resources */ = {isa = PBXBuildFile; fileRef = A8DB349318EB5C3200158D4E /* PoliciaRodoviaria.png */; };
+		A8DB34CD18EB5C3200158D4E /* RadarFixo.png in Resources */ = {isa = PBXBuildFile; fileRef = A8DB349418EB5C3200158D4E /* RadarFixo.png */; };
+		A8DB34CE18EB5C3200158D4E /* RadarMovel.png in Resources */ = {isa = PBXBuildFile; fileRef = A8DB349518EB5C3200158D4E /* RadarMovel.png */; };
+		A8DB34CF18EB5C3200158D4E /* SemafaroComCamera.png in Resources */ = {isa = PBXBuildFile; fileRef = A8DB349618EB5C3200158D4E /* SemafaroComCamera.png */; };
+		A8DB34D018EB5C3200158D4E /* SemafaroComRadar.png in Resources */ = {isa = PBXBuildFile; fileRef = A8DB349718EB5C3200158D4E /* SemafaroComRadar.png */; };
+		A8DB34D118EB5C3200158D4E /* NSDateFormatter+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB349A18EB5C3200158D4E /* NSDateFormatter+STTwitter.m */; };
+		A8DB34D218EB5C3200158D4E /* NSError+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB349C18EB5C3200158D4E /* NSError+STTwitter.m */; };
+		A8DB34D318EB5C3200158D4E /* NSString+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB349E18EB5C3200158D4E /* NSString+STTwitter.m */; };
+		A8DB34D418EB5C3200158D4E /* STHTTPRequest+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB34A018EB5C3200158D4E /* STHTTPRequest+STTwitter.m */; };
+		A8DB34D518EB5C3200158D4E /* STTwitterAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB34A318EB5C3200158D4E /* STTwitterAPI.m */; };
+		A8DB34D618EB5C3200158D4E /* STTwitterAppOnly.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB34A518EB5C3200158D4E /* STTwitterAppOnly.m */; };
+		A8DB34D718EB5C3200158D4E /* STTwitterHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB34A718EB5C3200158D4E /* STTwitterHTML.m */; };
+		A8DB34D818EB5C3200158D4E /* STTwitterOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB34A918EB5C3200158D4E /* STTwitterOAuth.m */; };
+		A8DB34D918EB5C3200158D4E /* STTwitterOS.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB34AB18EB5C3200158D4E /* STTwitterOS.m */; };
+		A8DB34DA18EB5C3200158D4E /* STTwitterOSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB34AD18EB5C3200158D4E /* STTwitterOSRequest.m */; };
+		A8DB34DB18EB5C3200158D4E /* BAVPlistNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB34B118EB5C3200158D4E /* BAVPlistNode.m */; };
+		A8DB34DC18EB5C3200158D4E /* JSONSyntaxHighlight.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB34B318EB5C3200158D4E /* JSONSyntaxHighlight.m */; };
+		A8DB34DD18EB5C3200158D4E /* STHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB34B518EB5C3200158D4E /* STHTTPRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8C326FE18E34D0B0081E47E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8C326D018E34D0B0081E47E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8C326D718E34D0B0081E47E;
+			remoteInfo = Maperize;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B58F3E818E9DF5700AF7B38 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		0B58F3EA18E9DF5E00AF7B38 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		0B58F3EC18E9DF6700AF7B38 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		3F3EEB9D18F50B780059E1E7 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		3F3EEB9E18F50B780059E1E7 /* buttonTake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonTake.png; sourceTree = "<group>"; };
+		3F3EEB9F18F50B780059E1E7 /* buttonTwettar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonTwettar.png; sourceTree = "<group>"; };
+		3F3EEBA318F50F630059E1E7 /* barraTransito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barraTransito.png; sourceTree = "<group>"; };
+		3F3EEBA418F50F630059E1E7 /* OtherUtilites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OtherUtilites.png; sourceTree = "<group>"; };
+		3F9FBB2518F6773E00F7C1B4 /* buttonMais.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonMais.png; sourceTree = "<group>"; };
+		3F9FBB2618F6773E00F7C1B4 /* buttonMenos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonMenos.png; sourceTree = "<group>"; };
+		3FB0D1DD18EBEB4C002CEB5A /* BombeirosIcone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BombeirosIcone.png; sourceTree = "<group>"; };
+		3FB0D1DE18EBEB4C002CEB5A /* CETIcone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CETIcone.png; sourceTree = "<group>"; };
+		3FB0D1DF18EBEB4C002CEB5A /* ProjectIcone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProjectIcone.png; sourceTree = "<group>"; };
+		3FB47F4818EEFDD500E93E7B /* CoodenadaLatitudeLongitude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoodenadaLatitudeLongitude.h; sourceTree = "<group>"; };
+		3FB47F4918EEFDD500E93E7B /* CoodenadaLatitudeLongitude.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoodenadaLatitudeLongitude.m; sourceTree = "<group>"; };
+		3FB47F4B18EEFE9700E93E7B /* routes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = routes.png; sourceTree = "<group>"; };
+		3FCF3FC318EE5D9900B483DB /* ScreenLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenLeftViewController.h; sourceTree = "<group>"; };
+		3FCF3FC418EE5D9900B483DB /* ScreenLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenLeftViewController.m; sourceTree = "<group>"; };
+		3FCF3FC618EE6DE100B483DB /* ImageApple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageApple.png; sourceTree = "<group>"; };
+		3FCF3FC718EE6DE100B483DB /* imageBomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageBomb.png; sourceTree = "<group>"; };
+		3FCF3FC818EE6DE100B483DB /* imageCET.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageCET.png; sourceTree = "<group>"; };
+		3FCF3FD018EE863900B483DB /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		3FCF3FD118EE863900B483DB /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		3FCF3FD318EE8C6B00B483DB /* Fundo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fundo.jpg; sourceTree = "<group>"; };
+		A86E579F18E6189400C65A59 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		A8C326D818E34D0B0081E47E /* Maperize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maperize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C326DB18E34D0B0081E47E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A8C326DD18E34D0B0081E47E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A8C326DF18E34D0B0081E47E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A8C326E318E34D0B0081E47E /* Maperize-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Maperize-Info.plist"; sourceTree = "<group>"; };
+		A8C326E518E34D0B0081E47E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8C326E718E34D0B0081E47E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8C326E918E34D0B0081E47E /* Maperize-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Maperize-Prefix.pch"; sourceTree = "<group>"; };
+		A8C326EA18E34D0B0081E47E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Maperize/AppDelegate.h; sourceTree = "<group>"; };
+		A8C326EB18E34D0B0081E47E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Maperize/AppDelegate.m; sourceTree = "<group>"; };
+		A8C326EE18E34D0B0081E47E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8C326F018E34D0B0081E47E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A8C326F118E34D0B0081E47E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A8C326F318E34D0B0081E47E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A8C326F918E34D0B0081E47E /* MaperizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaperizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C326FA18E34D0B0081E47E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A8C3270218E34D0B0081E47E /* MaperizeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MaperizeTests-Info.plist"; sourceTree = "<group>"; };
+		A8C3270418E34D0B0081E47E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8C3270618E34D0B0081E47E /* MaperizeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaperizeTests.m; sourceTree = "<group>"; };
+		A8C3271018E34D180081E47E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A8DB346A18EB5C3200158D4E /* Lombada_maparadar.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lombada_maparadar.txt; sourceTree = "<group>"; };
+		A8DB346B18EB5C3200158D4E /* maparadar_todos_SP.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = maparadar_todos_SP.txt; sourceTree = "<group>"; };
+		A8DB346C18EB5C3200158D4E /* Pedagio_maparadar.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pedagio_maparadar.txt; sourceTree = "<group>"; };
+		A8DB346D18EB5C3200158D4E /* PoliciaRodoviaria_maparadar.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PoliciaRodoviaria_maparadar.txt; sourceTree = "<group>"; };
+		A8DB346E18EB5C3200158D4E /* RadarFixo_maparadar.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RadarFixo_maparadar.txt; sourceTree = "<group>"; };
+		A8DB346F18EB5C3200158D4E /* RadarMovel_maparadar.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RadarMovel_maparadar.txt; sourceTree = "<group>"; };
+		A8DB347018EB5C3200158D4E /* SemaforoCamera_maparadar.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SemaforoCamera_maparadar.txt; sourceTree = "<group>"; };
+		A8DB347118EB5C3200158D4E /* SemaforoRadar_maparadar.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SemaforoRadar_maparadar.txt; sourceTree = "<group>"; };
+		A8DB347318EB5C3200158D4E /* Rota.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rota.h; sourceTree = "<group>"; };
+		A8DB347418EB5C3200158D4E /* Rota.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rota.m; sourceTree = "<group>"; };
+		A8DB347518EB5C3200158D4E /* Usuario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Usuario.h; sourceTree = "<group>"; };
+		A8DB347618EB5C3200158D4E /* Usuario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Usuario.m; sourceTree = "<group>"; };
+		A8DB347818EB5C3200158D4E /* DataBaseCoordenada.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBaseCoordenada.h; sourceTree = "<group>"; };
+		A8DB347918EB5C3200158D4E /* DataBaseCoordenada.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBaseCoordenada.m; sourceTree = "<group>"; };
+		A8DB347B18EB5C3200158D4E /* CoordenadaCet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordenadaCet.h; sourceTree = "<group>"; };
+		A8DB347C18EB5C3200158D4E /* CoordenadaCet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordenadaCet.m; sourceTree = "<group>"; };
+		A8DB347D18EB5C3200158D4E /* CoordenadaCetSite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordenadaCetSite.h; sourceTree = "<group>"; };
+		A8DB347E18EB5C3200158D4E /* CoordenadaCetSite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordenadaCetSite.m; sourceTree = "<group>"; };
+		A8DB347F18EB5C3200158D4E /* TweetCet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetCet.h; sourceTree = "<group>"; };
+		A8DB348018EB5C3200158D4E /* TweetCet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetCet.m; sourceTree = "<group>"; };
+		A8DB348218EB5C3200158D4E /* CoordenadaCorpo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordenadaCorpo.h; sourceTree = "<group>"; };
+		A8DB348318EB5C3200158D4E /* CoordenadaCorpo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordenadaCorpo.m; sourceTree = "<group>"; };
+		A8DB348418EB5C3200158D4E /* TweetCorpo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetCorpo.h; sourceTree = "<group>"; };
+		A8DB348518EB5C3200158D4E /* TweetCorpo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetCorpo.m; sourceTree = "<group>"; };
+		A8DB348718EB5C3200158D4E /* Coordenada.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coordenada.h; sourceTree = "<group>"; };
+		A8DB348818EB5C3200158D4E /* Coordenada.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coordenada.m; sourceTree = "<group>"; };
+		A8DB348918EB5C3200158D4E /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
+		A8DB348A18EB5C3200158D4E /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
+		A8DB348C18EB5C3200158D4E /* CoordenadaRadares.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordenadaRadares.h; sourceTree = "<group>"; };
+		A8DB348D18EB5C3200158D4E /* CoordenadaRadares.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordenadaRadares.m; sourceTree = "<group>"; };
+		A8DB348E18EB5C3200158D4E /* DataBaseCoordenadaRadares.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBaseCoordenadaRadares.h; sourceTree = "<group>"; };
+		A8DB348F18EB5C3200158D4E /* DataBaseCoordenadaRadares.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBaseCoordenadaRadares.m; sourceTree = "<group>"; };
+		A8DB349118EB5C3200158D4E /* Lompada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lompada.png; sourceTree = "<group>"; };
+		A8DB349218EB5C3200158D4E /* Pedagio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pedagio.png; sourceTree = "<group>"; };
+		A8DB349318EB5C3200158D4E /* PoliciaRodoviaria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PoliciaRodoviaria.png; sourceTree = "<group>"; };
+		A8DB349418EB5C3200158D4E /* RadarFixo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RadarFixo.png; sourceTree = "<group>"; };
+		A8DB349518EB5C3200158D4E /* RadarMovel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RadarMovel.png; sourceTree = "<group>"; };
+		A8DB349618EB5C3200158D4E /* SemafaroComCamera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SemafaroComCamera.png; sourceTree = "<group>"; };
+		A8DB349718EB5C3200158D4E /* SemafaroComRadar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SemafaroComRadar.png; sourceTree = "<group>"; };
+		A8DB349918EB5C3200158D4E /* NSDateFormatter+STTwitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+STTwitter.h"; sourceTree = "<group>"; };
+		A8DB349A18EB5C3200158D4E /* NSDateFormatter+STTwitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+STTwitter.m"; sourceTree = "<group>"; };
+		A8DB349B18EB5C3200158D4E /* NSError+STTwitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+STTwitter.h"; sourceTree = "<group>"; };
+		A8DB349C18EB5C3200158D4E /* NSError+STTwitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+STTwitter.m"; sourceTree = "<group>"; };
+		A8DB349D18EB5C3200158D4E /* NSString+STTwitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+STTwitter.h"; sourceTree = "<group>"; };
+		A8DB349E18EB5C3200158D4E /* NSString+STTwitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+STTwitter.m"; sourceTree = "<group>"; };
+		A8DB349F18EB5C3200158D4E /* STHTTPRequest+STTwitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STHTTPRequest+STTwitter.h"; sourceTree = "<group>"; };
+		A8DB34A018EB5C3200158D4E /* STHTTPRequest+STTwitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STHTTPRequest+STTwitter.m"; sourceTree = "<group>"; };
+		A8DB34A118EB5C3200158D4E /* STTwitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitter.h; sourceTree = "<group>"; };
+		A8DB34A218EB5C3200158D4E /* STTwitterAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitterAPI.h; sourceTree = "<group>"; };
+		A8DB34A318EB5C3200158D4E /* STTwitterAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTwitterAPI.m; sourceTree = "<group>"; };
+		A8DB34A418EB5C3200158D4E /* STTwitterAppOnly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitterAppOnly.h; sourceTree = "<group>"; };
+		A8DB34A518EB5C3200158D4E /* STTwitterAppOnly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTwitterAppOnly.m; sourceTree = "<group>"; };
+		A8DB34A618EB5C3200158D4E /* STTwitterHTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitterHTML.h; sourceTree = "<group>"; };
+		A8DB34A718EB5C3200158D4E /* STTwitterHTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTwitterHTML.m; sourceTree = "<group>"; };
+		A8DB34A818EB5C3200158D4E /* STTwitterOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitterOAuth.h; sourceTree = "<group>"; };
+		A8DB34A918EB5C3200158D4E /* STTwitterOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTwitterOAuth.m; sourceTree = "<group>"; };
+		A8DB34AA18EB5C3200158D4E /* STTwitterOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitterOS.h; sourceTree = "<group>"; };
+		A8DB34AB18EB5C3200158D4E /* STTwitterOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTwitterOS.m; sourceTree = "<group>"; };
+		A8DB34AC18EB5C3200158D4E /* STTwitterOSRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitterOSRequest.h; sourceTree = "<group>"; };
+		A8DB34AD18EB5C3200158D4E /* STTwitterOSRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTwitterOSRequest.m; sourceTree = "<group>"; };
+		A8DB34AE18EB5C3200158D4E /* STTwitterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitterProtocol.h; sourceTree = "<group>"; };
+		A8DB34B018EB5C3200158D4E /* BAVPlistNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAVPlistNode.h; sourceTree = "<group>"; };
+		A8DB34B118EB5C3200158D4E /* BAVPlistNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAVPlistNode.m; sourceTree = "<group>"; };
+		A8DB34B218EB5C3200158D4E /* JSONSyntaxHighlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONSyntaxHighlight.h; sourceTree = "<group>"; };
+		A8DB34B318EB5C3200158D4E /* JSONSyntaxHighlight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONSyntaxHighlight.m; sourceTree = "<group>"; };
+		A8DB34B418EB5C3200158D4E /* STHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STHTTPRequest.h; sourceTree = "<group>"; };
+		A8DB34B518EB5C3200158D4E /* STHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STHTTPRequest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8C326D518E34D0B0081E47E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B58F3ED18E9DF6700AF7B38 /* Twitter.framework in Frameworks */,
+				0B58F3EB18E9DF5E00AF7B38 /* Social.framework in Frameworks */,
+				0B58F3E918E9DF5700AF7B38 /* Accounts.framework in Frameworks */,
+				A8C3271118E34D180081E47E /* MapKit.framework in Frameworks */,
+				A8C326DE18E34D0B0081E47E /* CoreGraphics.framework in Frameworks */,
+				A8C326E018E34D0B0081E47E /* UIKit.framework in Frameworks */,
+				A8C326DC18E34D0B0081E47E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C326F618E34D0B0081E47E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C326FB18E34D0B0081E47E /* XCTest.framework in Frameworks */,
+				A8C326FD18E34D0B0081E47E /* UIKit.framework in Frameworks */,
+				A8C326FC18E34D0B0081E47E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A86E579E18E6125300C65A59 /* Controladores */ = {
+			isa = PBXGroup;
+			children = (
+				A8C326F018E34D0B0081E47E /* ViewController.h */,
+				A8C326F118E34D0B0081E47E /* ViewController.m */,
+				3FCF3FC318EE5D9900B483DB /* ScreenLeftViewController.h */,
+				3FCF3FC418EE5D9900B483DB /* ScreenLeftViewController.m */,
+			);
+			name = Controladores;
+			path = Maperize;
+			sourceTree = "<group>";
+		};
+		A876DA2718E4A74D00617768 /* Imagens */ = {
+			isa = PBXGroup;
+			children = (
+				A86E579F18E6189400C65A59 /* search.png */,
+			);
+			name = Imagens;
+			sourceTree = "<group>";
+		};
+		A876DA2818E4A75900617768 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				A8C326EA18E34D0B0081E47E /* AppDelegate.h */,
+				A8C326EB18E34D0B0081E47E /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		A876DA2918E4A76800617768 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8C326ED18E34D0B0081E47E /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A8C326CF18E34D0B0081E47E = {
+			isa = PBXGroup;
+			children = (
+				A8DB346818EB5C3200158D4E /* Twitter */,
+				A86E579E18E6125300C65A59 /* Controladores */,
+				A876DA2918E4A76800617768 /* View */,
+				A876DA2818E4A75900617768 /* Delegate */,
+				A876DA2718E4A74D00617768 /* Imagens */,
+				A8C326E118E34D0B0081E47E /* Maperize */,
+				A8C3270018E34D0B0081E47E /* MaperizeTests */,
+				A8C326DA18E34D0B0081E47E /* Frameworks */,
+				A8C326D918E34D0B0081E47E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8C326D918E34D0B0081E47E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8C326D818E34D0B0081E47E /* Maperize.app */,
+				A8C326F918E34D0B0081E47E /* MaperizeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8C326DA18E34D0B0081E47E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B58F3EC18E9DF6700AF7B38 /* Twitter.framework */,
+				0B58F3EA18E9DF5E00AF7B38 /* Social.framework */,
+				0B58F3E818E9DF5700AF7B38 /* Accounts.framework */,
+				A8C3271018E34D180081E47E /* MapKit.framework */,
+				A8C326DB18E34D0B0081E47E /* Foundation.framework */,
+				A8C326DD18E34D0B0081E47E /* CoreGraphics.framework */,
+				A8C326DF18E34D0B0081E47E /* UIKit.framework */,
+				A8C326FA18E34D0B0081E47E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8C326E118E34D0B0081E47E /* Maperize */ = {
+			isa = PBXGroup;
+			children = (
+				A8C326F318E34D0B0081E47E /* Images.xcassets */,
+				A8C326E218E34D0B0081E47E /* Supporting Files */,
+			);
+			path = Maperize;
+			sourceTree = "<group>";
+		};
+		A8C326E218E34D0B0081E47E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8C326E318E34D0B0081E47E /* Maperize-Info.plist */,
+				A8C326E418E34D0B0081E47E /* InfoPlist.strings */,
+				A8C326E718E34D0B0081E47E /* main.m */,
+				A8C326E918E34D0B0081E47E /* Maperize-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8C3270018E34D0B0081E47E /* MaperizeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8C3270618E34D0B0081E47E /* MaperizeTests.m */,
+				A8C3270118E34D0B0081E47E /* Supporting Files */,
+			);
+			path = MaperizeTests;
+			sourceTree = "<group>";
+		};
+		A8C3270118E34D0B0081E47E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8C3270218E34D0B0081E47E /* MaperizeTests-Info.plist */,
+				A8C3270318E34D0B0081E47E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8DB346818EB5C3200158D4E /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				A8DB346918EB5C3200158D4E /* Arquivos */,
+				A8DB349018EB5C3200158D4E /* Imagens */,
+				A8DB347218EB5C3200158D4E /* Classes Basicas */,
+				A8DB347718EB5C3200158D4E /* Coordenadas Twitter */,
+				A8DB348B18EB5C3200158D4E /* CoordenadasRadares */,
+				A8DB349818EB5C3200158D4E /* STTwitters */,
+			);
+			name = Twitter;
+			path = Maperize/Twitter;
+			sourceTree = "<group>";
+		};
+		A8DB346918EB5C3200158D4E /* Arquivos */ = {
+			isa = PBXGroup;
+			children = (
+				3FCF3FD018EE863900B483DB /* Base64.h */,
+				3FCF3FD318EE8C6B00B483DB /* Fundo.jpg */,
+				3FCF3FD118EE863900B483DB /* Base64.m */,
+				A8DB346A18EB5C3200158D4E /* Lombada_maparadar.txt */,
+				A8DB346B18EB5C3200158D4E /* maparadar_todos_SP.txt */,
+				A8DB346C18EB5C3200158D4E /* Pedagio_maparadar.txt */,
+				A8DB346D18EB5C3200158D4E /* PoliciaRodoviaria_maparadar.txt */,
+				A8DB346E18EB5C3200158D4E /* RadarFixo_maparadar.txt */,
+				A8DB346F18EB5C3200158D4E /* RadarMovel_maparadar.txt */,
+				A8DB347018EB5C3200158D4E /* SemaforoCamera_maparadar.txt */,
+				A8DB347118EB5C3200158D4E /* SemaforoRadar_maparadar.txt */,
+			);
+			path = Arquivos;
+			sourceTree = "<group>";
+		};
+		A8DB347218EB5C3200158D4E /* Classes Basicas */ = {
+			isa = PBXGroup;
+			children = (
+				A8DB347318EB5C3200158D4E /* Rota.h */,
+				A8DB347418EB5C3200158D4E /* Rota.m */,
+				A8DB347518EB5C3200158D4E /* Usuario.h */,
+				A8DB347618EB5C3200158D4E /* Usuario.m */,
+			);
+			path = "Classes Basicas";
+			sourceTree = "<group>";
+		};
+		A8DB347718EB5C3200158D4E /* Coordenadas Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				3FB47F4818EEFDD500E93E7B /* CoodenadaLatitudeLongitude.h */,
+				3FB47F4918EEFDD500E93E7B /* CoodenadaLatitudeLongitude.m */,
+				A8DB347818EB5C3200158D4E /* DataBaseCoordenada.h */,
+				A8DB347918EB5C3200158D4E /* DataBaseCoordenada.m */,
+				A8DB347A18EB5C3200158D4E /* TwitterCET */,
+				A8DB348118EB5C3200158D4E /* TwitterCorpoBombeiros */,
+				A8DB348618EB5C3200158D4E /* TwitterProjectIOS */,
+			);
+			path = "Coordenadas Twitter";
+			sourceTree = "<group>";
+		};
+		A8DB347A18EB5C3200158D4E /* TwitterCET */ = {
+			isa = PBXGroup;
+			children = (
+				A8DB347B18EB5C3200158D4E /* CoordenadaCet.h */,
+				A8DB347C18EB5C3200158D4E /* CoordenadaCet.m */,
+				A8DB347D18EB5C3200158D4E /* CoordenadaCetSite.h */,
+				A8DB347E18EB5C3200158D4E /* CoordenadaCetSite.m */,
+				A8DB347F18EB5C3200158D4E /* TweetCet.h */,
+				A8DB348018EB5C3200158D4E /* TweetCet.m */,
+			);
+			path = TwitterCET;
+			sourceTree = "<group>";
+		};
+		A8DB348118EB5C3200158D4E /* TwitterCorpoBombeiros */ = {
+			isa = PBXGroup;
+			children = (
+				A8DB348218EB5C3200158D4E /* CoordenadaCorpo.h */,
+				A8DB348318EB5C3200158D4E /* CoordenadaCorpo.m */,
+				A8DB348418EB5C3200158D4E /* TweetCorpo.h */,
+				A8DB348518EB5C3200158D4E /* TweetCorpo.m */,
+			);
+			path = TwitterCorpoBombeiros;
+			sourceTree = "<group>";
+		};
+		A8DB348618EB5C3200158D4E /* TwitterProjectIOS */ = {
+			isa = PBXGroup;
+			children = (
+				A8DB348718EB5C3200158D4E /* Coordenada.h */,
+				A8DB348818EB5C3200158D4E /* Coordenada.m */,
+				A8DB348918EB5C3200158D4E /* Tweet.h */,
+				A8DB348A18EB5C3200158D4E /* Tweet.m */,
+			);
+			path = TwitterProjectIOS;
+			sourceTree = "<group>";
+		};
+		A8DB348B18EB5C3200158D4E /* CoordenadasRadares */ = {
+			isa = PBXGroup;
+			children = (
+				A8DB348C18EB5C3200158D4E /* CoordenadaRadares.h */,
+				A8DB348D18EB5C3200158D4E /* CoordenadaRadares.m */,
+				A8DB348E18EB5C3200158D4E /* DataBaseCoordenadaRadares.h */,
+				A8DB348F18EB5C3200158D4E /* DataBaseCoordenadaRadares.m */,
+			);
+			path = CoordenadasRadares;
+			sourceTree = "<group>";
+		};
+		A8DB349018EB5C3200158D4E /* Imagens */ = {
+			isa = PBXGroup;
+			children = (
+				3F9FBB2518F6773E00F7C1B4 /* buttonMais.png */,
+				3F9FBB2618F6773E00F7C1B4 /* buttonMenos.png */,
+				A8DB349118EB5C3200158D4E /* Lompada.png */,
+				3F3EEB9D18F50B780059E1E7 /* bar.png */,
+				3F3EEB9E18F50B780059E1E7 /* buttonTake.png */,
+				3F3EEB9F18F50B780059E1E7 /* buttonTwettar.png */,
+				3FB47F4B18EEFE9700E93E7B /* routes.png */,
+				A8DB349218EB5C3200158D4E /* Pedagio.png */,
+				3F3EEBA318F50F630059E1E7 /* barraTransito.png */,
+				3F3EEBA418F50F630059E1E7 /* OtherUtilites.png */,
+				3FCF3FC618EE6DE100B483DB /* ImageApple.png */,
+				3FCF3FC718EE6DE100B483DB /* imageBomb.png */,
+				3FCF3FC818EE6DE100B483DB /* imageCET.png */,
+				3FB0D1DD18EBEB4C002CEB5A /* BombeirosIcone.png */,
+				3FB0D1DE18EBEB4C002CEB5A /* CETIcone.png */,
+				3FB0D1DF18EBEB4C002CEB5A /* ProjectIcone.png */,
+				A8DB349318EB5C3200158D4E /* PoliciaRodoviaria.png */,
+				A8DB349418EB5C3200158D4E /* RadarFixo.png */,
+				A8DB349518EB5C3200158D4E /* RadarMovel.png */,
+				A8DB349618EB5C3200158D4E /* SemafaroComCamera.png */,
+				A8DB349718EB5C3200158D4E /* SemafaroComRadar.png */,
+			);
+			path = Imagens;
+			sourceTree = "<group>";
+		};
+		A8DB349818EB5C3200158D4E /* STTwitters */ = {
+			isa = PBXGroup;
+			children = (
+				A8DB349918EB5C3200158D4E /* NSDateFormatter+STTwitter.h */,
+				A8DB349A18EB5C3200158D4E /* NSDateFormatter+STTwitter.m */,
+				A8DB349B18EB5C3200158D4E /* NSError+STTwitter.h */,
+				A8DB349C18EB5C3200158D4E /* NSError+STTwitter.m */,
+				A8DB349D18EB5C3200158D4E /* NSString+STTwitter.h */,
+				A8DB349E18EB5C3200158D4E /* NSString+STTwitter.m */,
+				A8DB349F18EB5C3200158D4E /* STHTTPRequest+STTwitter.h */,
+				A8DB34A018EB5C3200158D4E /* STHTTPRequest+STTwitter.m */,
+				A8DB34A118EB5C3200158D4E /* STTwitter.h */,
+				A8DB34A218EB5C3200158D4E /* STTwitterAPI.h */,
+				A8DB34A318EB5C3200158D4E /* STTwitterAPI.m */,
+				A8DB34A418EB5C3200158D4E /* STTwitterAppOnly.h */,
+				A8DB34A518EB5C3200158D4E /* STTwitterAppOnly.m */,
+				A8DB34A618EB5C3200158D4E /* STTwitterHTML.h */,
+				A8DB34A718EB5C3200158D4E /* STTwitterHTML.m */,
+				A8DB34A818EB5C3200158D4E /* STTwitterOAuth.h */,
+				A8DB34A918EB5C3200158D4E /* STTwitterOAuth.m */,
+				A8DB34AA18EB5C3200158D4E /* STTwitterOS.h */,
+				A8DB34AB18EB5C3200158D4E /* STTwitterOS.m */,
+				A8DB34AC18EB5C3200158D4E /* STTwitterOSRequest.h */,
+				A8DB34AD18EB5C3200158D4E /* STTwitterOSRequest.m */,
+				A8DB34AE18EB5C3200158D4E /* STTwitterProtocol.h */,
+				A8DB34AF18EB5C3200158D4E /* Vendor */,
+			);
+			path = STTwitters;
+			sourceTree = "<group>";
+		};
+		A8DB34AF18EB5C3200158D4E /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				A8DB34B018EB5C3200158D4E /* BAVPlistNode.h */,
+				A8DB34B118EB5C3200158D4E /* BAVPlistNode.m */,
+				A8DB34B218EB5C3200158D4E /* JSONSyntaxHighlight.h */,
+				A8DB34B318EB5C3200158D4E /* JSONSyntaxHighlight.m */,
+				A8DB34B418EB5C3200158D4E /* STHTTPRequest.h */,
+				A8DB34B518EB5C3200158D4E /* STHTTPRequest.m */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8C326D718E34D0B0081E47E /* Maperize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8C3270A18E34D0B0081E47E /* Build configuration list for PBXNativeTarget "Maperize" */;
+			buildPhases = (
+				A8C326D418E34D0B0081E47E /* Sources */,
+				A8C326D518E34D0B0081E47E /* Frameworks */,
+				A8C326D618E34D0B0081E47E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Maperize;
+			productName = Maperize;
+			productReference = A8C326D818E34D0B0081E47E /* Maperize.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8C326F818E34D0B0081E47E /* MaperizeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8C3270D18E34D0B0081E47E /* Build configuration list for PBXNativeTarget "MaperizeTests" */;
+			buildPhases = (
+				A8C326F518E34D0B0081E47E /* Sources */,
+				A8C326F618E34D0B0081E47E /* Frameworks */,
+				A8C326F718E34D0B0081E47E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8C326FF18E34D0B0081E47E /* PBXTargetDependency */,
+			);
+			name = MaperizeTests;
+			productName = MaperizeTests;
+			productReference = A8C326F918E34D0B0081E47E /* MaperizeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8C326D018E34D0B0081E47E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "EMERSON DE SOUZA BARROS";
+				TargetAttributes = {
+					A8C326D718E34D0B0081E47E = {
+						DevelopmentTeam = U6NZ972TGR;
+					};
+					A8C326F818E34D0B0081E47E = {
+						TestTargetID = A8C326D718E34D0B0081E47E;
+					};
+				};
+			};
+			buildConfigurationList = A8C326D318E34D0B0081E47E /* Build configuration list for PBXProject "Maperize" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8C326CF18E34D0B0081E47E;
+			productRefGroup = A8C326D918E34D0B0081E47E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8C326D718E34D0B0081E47E /* Maperize */,
+				A8C326F818E34D0B0081E47E /* MaperizeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8C326D618E34D0B0081E47E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB47F4C18EEFE9700E93E7B /* routes.png in Resources */,
+				3FB0D1E118EBEB4C002CEB5A /* CETIcone.png in Resources */,
+				A8DB34D018EB5C3200158D4E /* SemafaroComRadar.png in Resources */,
+				A8DB34CD18EB5C3200158D4E /* RadarFixo.png in Resources */,
+				A8C326F418E34D0B0081E47E /* Images.xcassets in Resources */,
+				A8DB34CE18EB5C3200158D4E /* RadarMovel.png in Resources */,
+				A8DB34BB18EB5C3200158D4E /* RadarMovel_maparadar.txt in Resources */,
+				A8DB34CF18EB5C3200158D4E /* SemafaroComCamera.png in Resources */,
+				3F9FBB2818F6773E00F7C1B4 /* buttonMenos.png in Resources */,
+				3F3EEBA118F50B780059E1E7 /* buttonTake.png in Resources */,
+				A8DB34CC18EB5C3200158D4E /* PoliciaRodoviaria.png in Resources */,
+				A8DB34BC18EB5C3200158D4E /* SemaforoCamera_maparadar.txt in Resources */,
+				3FCF3FC918EE6DE100B483DB /* ImageApple.png in Resources */,
+				3F3EEBA018F50B780059E1E7 /* bar.png in Resources */,
+				A8DB34BD18EB5C3200158D4E /* SemaforoRadar_maparadar.txt in Resources */,
+				3FCF3FCA18EE6DE100B483DB /* imageBomb.png in Resources */,
+				3FCF3FCB18EE6DE100B483DB /* imageCET.png in Resources */,
+				A8DB34B618EB5C3200158D4E /* Lombada_maparadar.txt in Resources */,
+				3F9FBB2718F6773E00F7C1B4 /* buttonMais.png in Resources */,
+				A8DB34CB18EB5C3200158D4E /* Pedagio.png in Resources */,
+				A8C326E618E34D0B0081E47E /* InfoPlist.strings in Resources */,
+				A8DB34B718EB5C3200158D4E /* maparadar_todos_SP.txt in Resources */,
+				A8C326EF18E34D0B0081E47E /* Main.storyboard in Resources */,
+				3F3EEBA218F50B780059E1E7 /* buttonTwettar.png in Resources */,
+				A8DB34B818EB5C3200158D4E /* Pedagio_maparadar.txt in Resources */,
+				A8DB34CA18EB5C3200158D4E /* Lompada.png in Resources */,
+				3FCF3FD418EE8C6B00B483DB /* Fundo.jpg in Resources */,
+				3F3EEBA618F50F630059E1E7 /* OtherUtilites.png in Resources */,
+				A8DB34B918EB5C3200158D4E /* PoliciaRodoviaria_maparadar.txt in Resources */,
+				3FB0D1E018EBEB4C002CEB5A /* BombeirosIcone.png in Resources */,
+				A86E57A018E6189400C65A59 /* search.png in Resources */,
+				3FB0D1E218EBEB4C002CEB5A /* ProjectIcone.png in Resources */,
+				3F3EEBA518F50F630059E1E7 /* barraTransito.png in Resources */,
+				A8DB34BA18EB5C3200158D4E /* RadarFixo_maparadar.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C326F718E34D0B0081E47E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C3270518E34D0B0081E47E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8C326D418E34D0B0081E47E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8DB34D318EB5C3200158D4E /* NSString+STTwitter.m in Sources */,
+				A8DB34BF18EB5C3200158D4E /* Usuario.m in Sources */,
+				A8DB34DD18EB5C3200158D4E /* STHTTPRequest.m in Sources */,
+				A8DB34DA18EB5C3200158D4E /* STTwitterOSRequest.m in Sources */,
+				A8DB34C918EB5C3200158D4E /* DataBaseCoordenadaRadares.m in Sources */,
+				A8DB34C718EB5C3200158D4E /* Tweet.m in Sources */,
+				A8DB34DC18EB5C3200158D4E /* JSONSyntaxHighlight.m in Sources */,
+				3FCF3FC518EE5D9900B483DB /* ScreenLeftViewController.m in Sources */,
+				A8DB34D618EB5C3200158D4E /* STTwitterAppOnly.m in Sources */,
+				A8C326F218E34D0B0081E47E /* ViewController.m in Sources */,
+				A8DB34C018EB5C3200158D4E /* DataBaseCoordenada.m in Sources */,
+				A8DB34C418EB5C3200158D4E /* CoordenadaCorpo.m in Sources */,
+				A8C326EC18E34D0B0081E47E /* AppDelegate.m in Sources */,
+				A8DB34D218EB5C3200158D4E /* NSError+STTwitter.m in Sources */,
+				A8DB34C118EB5C3200158D4E /* CoordenadaCet.m in Sources */,
+				A8C326E818E34D0B0081E47E /* main.m in Sources */,
+				3FCF3FD218EE863900B483DB /* Base64.m in Sources */,
+				A8DB34D918EB5C3200158D4E /* STTwitterOS.m in Sources */,
+				A8DB34D418EB5C3200158D4E /* STHTTPRequest+STTwitter.m in Sources */,
+				A8DB34C818EB5C3200158D4E /* CoordenadaRadares.m in Sources */,
+				A8DB34D518EB5C3200158D4E /* STTwitterAPI.m in Sources */,
+				A8DB34C618EB5C3200158D4E /* Coordenada.m in Sources */,
+				A8DB34C318EB5C3200158D4E /* TweetCet.m in Sources */,
+				A8DB34D718EB5C3200158D4E /* STTwitterHTML.m in Sources */,
+				A8DB34BE18EB5C3200158D4E /* Rota.m in Sources */,
+				3FB47F4A18EEFDD500E93E7B /* CoodenadaLatitudeLongitude.m in Sources */,
+				A8DB34D818EB5C3200158D4E /* STTwitterOAuth.m in Sources */,
+				A8DB34C218EB5C3200158D4E /* CoordenadaCetSite.m in Sources */,
+				A8DB34D118EB5C3200158D4E /* NSDateFormatter+STTwitter.m in Sources */,
+				A8DB34DB18EB5C3200158D4E /* BAVPlistNode.m in Sources */,
+				A8DB34C518EB5C3200158D4E /* TweetCorpo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C326F518E34D0B0081E47E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C3270718E34D0B0081E47E /* MaperizeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8C326FF18E34D0B0081E47E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8C326D718E34D0B0081E47E /* Maperize */;
+			targetProxy = A8C326FE18E34D0B0081E47E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8C326E418E34D0B0081E47E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8C326E518E34D0B0081E47E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A8C326ED18E34D0B0081E47E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8C326EE18E34D0B0081E47E /* Base */,
+			);
+			name = Main.storyboard;
+			path = Maperize;
+			sourceTree = "<group>";
+		};
+		A8C3270318E34D0B0081E47E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8C3270418E34D0B0081E47E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8C3270818E34D0B0081E47E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A8C3270918E34D0B0081E47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8C3270B18E34D0B0081E47E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Maperize/Maperize-Prefix.pch";
+				INFOPLIST_FILE = "Maperize/Maperize-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A8C3270C18E34D0B0081E47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Maperize/Maperize-Prefix.pch";
+				INFOPLIST_FILE = "Maperize/Maperize-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A8C3270E18E34D0B0081E47E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Maperize.app/Maperize";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Maperize/Maperize-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MaperizeTests/MaperizeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A8C3270F18E34D0B0081E47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Maperize.app/Maperize";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Maperize/Maperize-Prefix.pch";
+				INFOPLIST_FILE = "MaperizeTests/MaperizeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8C326D318E34D0B0081E47E /* Build configuration list for PBXProject "Maperize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C3270818E34D0B0081E47E /* Debug */,
+				A8C3270918E34D0B0081E47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8C3270A18E34D0B0081E47E /* Build configuration list for PBXNativeTarget "Maperize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C3270B18E34D0B0081E47E /* Debug */,
+				A8C3270C18E34D0B0081E47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8C3270D18E34D0B0081E47E /* Build configuration list for PBXNativeTarget "MaperizeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C3270E18E34D0B0081E47E /* Debug */,
+				A8C3270F18E34D0B0081E47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8C326D018E34D0B0081E47E /* Project object */;
+}
